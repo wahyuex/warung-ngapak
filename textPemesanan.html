@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <script type="text/JavaScript" src="script.js">
+    </script>
+    <title>Warunk Ngapakk</title>
+    <style>
+        .PEMESANAN {
+            text-align: center;
+        }
+
+        *{
+            color: #6B3B0E;
+        }
+    </style>
+</head>
+<body>
+    <div class="allbg2">
+        <div>
+            <img class="logos2" src="logoputih.png" alt="">
+            <h1 class ="PEMESANAN">PEMESANAN</h1>
+        </div>
+        <table border="1" class="table2">
+            <tr>
+                <p></p>
+                    <th>
+                        <h4>Nasi Goreng Jawa (Rp 11.000)</h4>
+                        <label for="menu1">Jumlah : </label>
+                        <input type="number" min="0" id="menu1">
+                        <h4> Nasi Godog Jawa (Rp 12.000)</h4>
+                        <label for="menu2">Jumlah : </label>
+                        <input type="number" min="0" id="menu2">
+                        <h4> Mie Goreng Jawa (Rp 12.000)</h4>
+                        <label for="menu3">Jumlah : </label>
+                        <input type="number" min="0" id="menu3">
+                        <h4>Mie Godog Jawa (Rp 13.000)</h4>
+                        <label for="menu4">Jumlah : </label>
+                        <input type="number" min="0" id="menu4">
+                        <h4>Es Teh Tawar (Rp 3.000)</h4>
+                        <label for="menu5">Jumlah : </label>
+                        <input type="number" min="0" id="menu5">
+                        <h4>Teh Panas Tawar (Rp 3.000)</h4>
+                        <label for="menu6">Jumlah : </label>
+                        <input type="number" min="0" id="menu6">
+                        <h4>Es Jeruk (Rp 3.000)</h4>
+                        <label for="menu7">Jumlah : </label>
+                        <input type="number" min="0" id="menu7">
+                    </th>
+                    <th>
+                         <h4>Mie Nyemek Jawa (Rp 14.000)</h4>
+                        <label for="menu8">Jumlah : </label>
+                        <input type="number" min="0" id="menu8">
+                        <h4>Bihun Goreng Jawa (Rp 11.000)</h4>
+                        <label for="menu9">Jumlah : </label>
+                        <input type="number" min="0" id="menu9">
+                        <h4>Bihun Godog Jawa (Rp 12.000)</h4>
+                        <label for="menu10">Jumlah : </label>
+                        <input type="number" min="0" id="menu10">
+                        <h4>Tempe Mendoan (Rp 10.000)</h4>
+                        <label for="menu11">Jumlah : </label>
+                        <input type="number" min="0" id="menu11">
+                        <h4>Es Teh Manis (Rp 3.000)</h4>
+                        <label for="menu12">Jumlah : </label>
+                        <input type="number" min="0" id="menu12">
+                        <h4>Teh Panas Manis (Rp 3.000)</h4>
+                        <label for="menu13">Jumlah : </label>
+                        <input type="number" min="0" id="menu13">
+                        <h4>Jeruk Panas (Rp 3.000)</h4>
+                        <label for="menu14">Jumlah : </label>
+                        <input type="number" min="0" id="menu14">
+                    </th>
+            </tr>
+        </table>
+        <p></p>
+        <button style="margin-left: 170px ; font-size:larger" onclick="myFunction()" ><i class="fa-solid fa-check"></i> KONFIRMASI PESANAN</button>
+        <P></P>
+        <label for="sum" style="margin-left: 101px"><b>Catatan :</b></label>
+        <input type="text" style="font-size :large" placeholder="Nasi Goreng Tidak Pedas">
+        <p></p>
+        <label for="sum" style="margin-left: 90px"><b>Total(Rp) :</b></label>
+        <input type="text" id="sum" style="font-size :x-large">
+        <p></p>
+        <div style="margin-left: 170px">
+            <h2>PENGIRIMAN</h2>
+            <h4>PEMBAYARAN Dapat Dilakukan Melalui COD (Cash on Delivery) <br>
+            dengan Biaya Ongkir GRATIS!! untuk sekitar Kec. Gombong <br>(Khusus Seluruh Kabupaten Kebumen Rp 10.000)</h4>
+            <label for="">ATAS NAMA :</label><br>
+            <input type="text" style="font-size:large" placeholder="Ex : Alfonsus"><br>
+            <p></p>
+            <label for="">NOMER HANDPHONE :</label><br>
+            <input type="text" style="font-size:large" placeholder="Ex : 08132949****"><br>
+            <p></p>
+            <label for="">ALAMAT : </label><br>
+            <input type="text" style="font-size:large">
+            <p></p>
+            <label for="">RT/RW</label><br>
+            <input type="number" min="0" max="9"><input type="number" min="0" max="9"><input type="number" min="0" max="9"><b style="margin-left: 10px"> / </b>
+            <input type="number" min="0" max="9" style="margin-left: 10px"><input type="number" min="0" max="9"><input type="number" min="0" max="9"><br><p></p>
+            <label for="">Kelurahan/Desa : </label><br>
+            <input type="text" style="font-size:large"><br><p></p>
+            <label for="">Kecamatan : </label><br>
+            <input type="text" style="font-size:large"><br><p></p>
+            <label for="">Kabupaten : </label><br>
+            <input type="text" style="font-size:large"><br><p></p>
+            <label for="">Catatan : </label><br>
+            <input type="text" style="font-size:large" placeholder="Rumah Warna Hijau"><br><p></p>
+            <button type="button" style="font-size: x-large" onclick="konfirmasi()"><i class="fa-solid fa-paper-plane"></i> KONFIRMASI PENGIRIMAN</button>
+        </div>
+    </div>
+</body>
+</html>
